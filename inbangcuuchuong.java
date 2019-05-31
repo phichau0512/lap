@@ -5,7 +5,7 @@ public static void main(String[] args) {
 //	int soa;
 //	int i;
 //	int ketqua;
-//	Scanner cuchuong =new Scanner(System.in);
+//	Scanner cuuchuong =new Scanner(System.in);
 //	System.out.println("Nhập bảng cửu chương bạn cần tìm ");
 //    soa = cuchuong.nextInt();
 //    
