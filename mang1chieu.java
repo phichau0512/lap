@@ -29,8 +29,16 @@ public static void main(String[] args) {
 	    A = ghi.nextInt();
 	    int[] mang = new int[A];
 	    
-	
+	    for(int i=0; i< A; i++){
+	    	System.out.println("nhập vào phần tử thứ " +i+": ");
+	    	mang[i] = so = ghi.nextInt();     
+	    	tong += so;
 
+	    }
+	    for(int j=0; j<A; j++){
+	    	System.out.println("phần tử thứ" + j +": " +mang[j]);
+	    }
+	    System.out.println("tổng:"+tong+"/"+A);
 	    tbc = (float)tong/A;
 	    System.out.println("Trung Bình Cộng: " + tbc);
 	    }
