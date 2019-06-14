@@ -19,7 +19,7 @@ public static void main(String[] args) {
       for(int i=0 ; i<x; i++){
           for(int j = 0; j < y; j++){
               for(int l=0; l<z; l++){
-          System.out.println("nhap phan tu thu:" + i + "," + j + "," + l +":");
+          System.out.print("nhap phan tu thu:[" + i + "," + j + "," + l +"] :");
           A[i][j][l]= number= scanner.nextInt();
           sum += number;
           }}}
